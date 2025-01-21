@@ -1,10 +1,11 @@
 from HTMLParser import HTMLParser
 import simplejson as json
 import database
-import re
+import re un
 
-class MyHTMLParser(HTMLParser):
+class MyHTMLParser(HTMLParser):https://www.facebook.com/lupitha.rojiiblankakulei/
     def array(self):
+    
         self.dataArray = []
     def handle_data(self, data):
         self.dataArray.append(data)       
